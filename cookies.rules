@@ -1,0 +1,5 @@
+map $http_cookie $badcookie {
+	default					0;
+	~*begetok				1;
+	~*humans_21909			1;
+}
