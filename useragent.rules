@@ -71,5 +71,7 @@ map $http_user_agent $badagent {
 	~*Apache						1;
 	~*HttpClient					1;
 	~*NetcraftSurveyAgent			1;
+	~*comscore						1;
+	~*ias-							1;
 }
 
