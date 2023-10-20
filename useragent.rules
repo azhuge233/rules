@@ -73,5 +73,6 @@ map $http_user_agent $badagent {
 	~*NetcraftSurveyAgent			1;
 	~*comscore						1;
 	~*ias-							1;
+	~*scanner.ducks.party			1;
 }
 
