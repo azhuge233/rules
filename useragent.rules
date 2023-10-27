@@ -79,5 +79,6 @@ map $http_user_agent $badagent {
 	~*CheckMarkNetwork				1;
 	~*l9scan						1;
 	~*Presto						1;
+	~*facebookexternalhit			1;
 }
 
