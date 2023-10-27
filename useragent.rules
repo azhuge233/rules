@@ -77,6 +77,7 @@ map $http_user_agent $badagent {
 	~*AdsTxtCrawler					1;
 	~*IAB-Tech-Lab					1;
 	~*CheckMarkNetwork				1;
-	~*l9scan						1;	
+	~*l9scan						1;
+	~*Presto						1;
 }
 
