@@ -17,7 +17,6 @@ map $http_user_agent $badagent {
 	~*http-client					1;
 	~*Criteo						1;
 	~*iPod							1;
-	~*petalbot						1;
 	~*grapeshot						1;
 	~*admantx						1;
 	~*AppEngine						1;
@@ -80,6 +79,5 @@ map $http_user_agent $badagent {
 	~*l9scan						1;
 	~*Presto						1;
 	~*facebookexternalhit			1;
-	~*internal\ dummy\ connection	1;
 }
 
