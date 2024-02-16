@@ -80,5 +80,6 @@ map $http_user_agent $badagent {
 	~*l9scan						1;
 	~*Presto						1;
 	~*facebookexternalhit			1;
+	~*internal dummy connection		1;
 }
 
