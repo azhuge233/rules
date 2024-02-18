@@ -25,6 +25,7 @@ map $http_user_agent $badagent {
 	~*Expanse						1;
 	~*ExtLinksBot					1;
 	~*GPTBot						1;
+	~*Google-Extended				1;
 	~*Headless						1;
 	~*HttpClient					1;
 	~*IAB-Tech-Lab					1;
@@ -48,7 +49,9 @@ map $http_user_agent $badagent {
 	~*ZoominfoBot					1;
 	~*admantx						1;
 	~*aiHitBot						1;
+	~*anthropic-ai					1;
 	~*archive.org					1;
+	~*cohere-ai						1;
 	~*comscore						1;
 	~*crawler						1;
 	~*facebookexternalhit			1;
