@@ -81,5 +81,6 @@ map $http_user_agent $badagent {
 	~*undici						1;
 	~*webprosbot					1;
 	~*zgrab							1;
+	~*wpbot							1;
 }
 
