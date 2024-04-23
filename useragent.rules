@@ -83,5 +83,6 @@ map $http_user_agent $badagent {
 	~*zgrab							1;
 	~*wpbot							1;
 	~*claudebot						1;
+	~*archive						1;
 }
 
