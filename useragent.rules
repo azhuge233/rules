@@ -1,6 +1,8 @@
 map $http_user_agent $badagent {
 	default							0;
+	~*Chrome\/9						0;
 	""								1;
+	"~*Chrome\/\d{2}\."				1;
 	~*ALittle						1;
 	~*AdsTxtCrawler					1;
 	~*AhrefsBot						1;
@@ -11,13 +13,6 @@ map $http_user_agent $badagent {
 	~*Censys						1;
 	~*ChatGPT-User					1;
 	~*CheckMarkNetwork				1;
-	~*Chrome\/2						1;
-	~*Chrome\/3						1;
-	~*Chrome\/4						1;
-	~*Chrome\/5						1;
-	~*Chrome\/6						1;
-	~*Chrome\/7						1;
-	~*Chrome\/8						1;
 	~*Criteo						1;
 	~*DnyzBot						1;
 	~*DotBot						1;
