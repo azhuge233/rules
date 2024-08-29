@@ -8,6 +8,7 @@ map $http_user_agent $badagent {
 	~*AhrefsBot						1;
 	~*Apache						1;
 	~*AppEngine						1;
+	~*Applebot-Extended				1;
 	~*BLEXBot						1;
 	~*CCBot							1;
 	~*Censys						1;
@@ -45,7 +46,9 @@ map $http_user_agent $badagent {
 	~*admantx						1;
 	~*aiHitBot						1;
 	~*anthropic-ai					1;
+	~*archive						1;
 	~*archive.org					1;
+	~*claudebot						1;
 	~*cohere-ai						1;
 	~*comscore						1;
 	~*crawler						1;
@@ -57,7 +60,7 @@ map $http_user_agent $badagent {
 	~*http-client					1;
 	~*iPod							1;
 	~*ias-							1;
-	~*internal\ dummy\ connection	1;	
+	~*internal\ dummy\ connection	1;
 	~*l9scan						1;
 	~*lib							1;
 	~*netcraft						1;
@@ -75,9 +78,7 @@ map $http_user_agent $badagent {
 	~*toutiao						1;
 	~*undici						1;
 	~*webprosbot					1;
-	~*zgrab							1;
 	~*wpbot							1;
-	~*claudebot						1;
-	~*archive						1;
+	~*zgrab							1;
 }
 
