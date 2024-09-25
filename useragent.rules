@@ -69,6 +69,7 @@ map $http_user_agent $badagent {
 	~*phxbot						1;
 	~*proximic						1;
 	~*python						1;
+	~*rb.gy							1;
 	~*request						1;
 	~*scanner.ducks.party			1;
 	~*sindresorhus\/got				1;
