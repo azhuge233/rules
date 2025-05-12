@@ -32,6 +32,7 @@ map $http_user_agent $badagent {
 	~*Neeva							1;
 	~*NetcraftSurveyAgent			1;
 	~*NetFront						1;
+	~*OAI-SearchBot					1;
 	~*Photon						1;
 	~*Presto						1;
 	~*PulsePoint					1;
