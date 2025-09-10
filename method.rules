@@ -2,5 +2,6 @@ map $request_method $badmethod {
     HEAD    0;
     GET     0;
     POST    0;
+    PATCH   0;
     default 1;
 }
