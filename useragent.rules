@@ -1,6 +1,7 @@
 map $http_user_agent $badagent {
 	default							0;
 	~*Chrome\/9						0;
+	WP\ Fastest\ Cache\ Preload\ Bot 0;
 	""								1;
 	"~*Chrome\/\d{2}\."				1;
 	~*ALittle						1;
