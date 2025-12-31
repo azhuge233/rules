@@ -202,6 +202,7 @@ map $http_user_agent $badagent {
 	~*python							1;
 	~*rb.gy								1;
 	~*request							1;
+	~*scanning							1;
 	~*scanner.ducks.party				1;
 	~*sindresorhus\/got					1;
 	~*spbot								1;
