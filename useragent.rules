@@ -17,6 +17,7 @@ map $http_user_agent $badagent {
 	~*anthropic\-ai						1;
 	~*Applebot							1;
 	~*Applebot\-Extended				1;
+	~*archive\.org_bot					1;
 	~*atlassian\-bot					1;
 	~*Awario							1;
 	~*bedrockbot						1;
@@ -107,6 +108,7 @@ map $http_user_agent $badagent {
 	~*PhindBot							1;
 	~*Poggio\-Citations					1;
 	~*Poseidon\ Research\ Crawler		1;
+	~*ProRataInc						1;
 	~*QualifiedBot						1;
 	~*QuillBot							1;
 	~*quillbot\.com						1;
