@@ -104,7 +104,6 @@ map $http_user_agent $badagent {
 	~*panscient\.com					1;
 	~*Perplexity\-User					1;
 	~*PerplexityBot						1;
-	~*PetalBot							1;
 	~*PhindBot							1;
 	~*Poggio\-Citations					1;
 	~*Poseidon\ Research\ Crawler		1;
